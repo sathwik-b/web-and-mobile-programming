@@ -1,0 +1,12 @@
+.boxes{
+
+    display: flex;
+    justify-content: center;
+
+}
+.boxbody{
+     margin: 2px;
+     height: 70px;
+     width: 70px
+
+ }
