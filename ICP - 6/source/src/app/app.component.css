@@ -1,0 +1,5 @@
+.image{
+  height:100vh; background-size:cover; width:100%;
+  background-image:url('https://brookiescookies.ky/wp-content/uploads/2017/03/full-screen-background.jpg');
+overflow: auto;
+}
