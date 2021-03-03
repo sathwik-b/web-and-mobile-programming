@@ -1,0 +1,58 @@
+.mat-form-field-wrapper{
+color: darkcyan;
+}
+
+.mat-input-element.mat-form-field-autofill-control.cdk-text-field-autofill-monitored.ng-untouched.ng-pristine.ng-invalid {
+  color: cadetblue;
+}
+
+.mat-header-cell.cdk-column-isbn.mat-column-isbn {
+  color: cadetblue;
+  background-color:mistyrose;
+}
+.mat-header-cell.cdk-column-title.mat-column-title {
+color:cadetblue;
+background-color:mistyrose;
+}
+.mat-header-cell.cdk-column-author.mat-column-author {
+color: cadetblue;
+background-color: mistyrose;
+}
+
+.mat-raised-button.mat-primary {
+color: rgb(236, 240, 240);
+background-color: cadetblue;
+}
+
+.header.text-center {
+  color: rgb(5, 84, 150);
+}
+
+.image {
+  background-image: url('https://www.wallpapertip.com/wmimgs/0-3795_wallpaper-books-library-shelves-lighting-hd-book-library.jpg');
+  }
+
+.button-row {
+  margin: 10px 0;
+}
+
+.example-container {
+  display: flex;
+  flex-direction: column;
+  max-height: 500px;
+  min-width: 300px;
+  overflow: auto;
+}
+
+.isbn-col {
+  flex: 0 0 100px !important;
+  white-space: unset !important;
+}
+
+.header {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: antiquewhite
+}
