@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:visibility="visible"
+    tools:context=".MainActivity"
+    android:background="@drawable/bgimg"
+    >
+
+    <EditText
+        android:id="@+id/edName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="UserName"
+        android:inputType="textPersonName"
+        android:shadowColor="#090909"
+        android:textColor="#FF5252"
+        android:textColorHighlight="#448AFF"
+        android:textColorHint="#64FFDA"
+        android:textColorLink="#F44336"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.314" />
+
+    <EditText
+        android:id="@+id/edPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#FF5252"
+        android:textColorHint="#64FFDA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edName"
+        app:layout_constraintVertical_bias="0.086" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        app:backgroundTint="#009688"
+        app:iconTint="#FF9800"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edPassword"
+        app:layout_constraintVertical_bias="0.087" />
+
+    <TextView
+        android:id="@+id/forgotView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:textColor="#FFAB40"
+        android:textColorHint="#FFAB40"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginButton"
+        app:layout_constraintVertical_bias="0.136" />
+
+    <TextView
+        android:id="@+id/entryLine"
+        style="@style/Widget.AppCompat.TextView"
+        android:layout_width="194dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="99dp"
+        android:fadeScrollbars="true"
+        android:focusable="auto"
+        android:fontFamily="@font/bangers"
+        android:text="My Mobile APP"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FFAB40"
+        app:layout_constraintBottom_toTopOf="@+id/edName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
